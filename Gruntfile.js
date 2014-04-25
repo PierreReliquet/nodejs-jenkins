@@ -5,14 +5,14 @@ module.exports = function (grunt) {
 
     grunt.initConfig({
         pkg: grunt.file.readJSON('package.json'),
-        clean: ["test-reports.xml"],
+        clean: ["report/*"],
         mochaTest: {
             jenkins: {
-                src: ['*.js'],
+                src: ['test/*.js'],
                 options: {
                     reporter: 'xunit',
                     quiet: true,
-                    captureFile: 'test-reports.xml'
+                    captureFile: 'report/test-reports.xml'
                 }
             }
         }
