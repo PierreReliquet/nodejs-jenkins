@@ -18,6 +18,6 @@ module.exports = function (grunt) {
         }
     });
 
-    grunt.registerTask("default", ["clean", "mochaTest"]);
+    grunt.registerTask("jenkins", ["clean", "mochaTest"]);
 
 };

@@ -7,7 +7,7 @@ describe('a first test to check the integration with jenkins', function() {
     });
 
     it('should be also always true', function() {
-        chai.expect(true).to.equal(true);
+        chai.expect(true).to.equal(false);
     });
 
 });
