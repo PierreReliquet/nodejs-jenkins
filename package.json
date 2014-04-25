@@ -1,0 +1,27 @@
+{
+  "name": "nodejs-jenkins",
+  "version": "0.0.1",
+  "description": "A short application just to test the integration of nodejs with jenkins.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/PierreReliquet/nodejs-jenkins.git"
+  },
+  "keywords": [
+    "Jenkins"
+  ],
+  "author": "Pierre Reliquet",
+  "license": "Apache 2 License",
+  "bugs": {
+    "url": "https://github.com/PierreReliquet/nodejs-jenkins/issues"
+  },
+  "homepage": "https://github.com/PierreReliquet/nodejs-jenkins",
+  "devDependencies": {
+    "grunt": "^0.4.4",
+    "grunt-mocha-test": "^0.10.2",
+    "mocha": "^1.18.2",
+    "chai": "^1.9.1"
+  }
+}
